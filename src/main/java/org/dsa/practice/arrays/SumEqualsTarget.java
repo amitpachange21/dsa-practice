@@ -1,4 +1,4 @@
-package org.streams.api.arrays;
+package org.dsa.practice.arrays;
 
 public class SumEqualsTarget {
 }
