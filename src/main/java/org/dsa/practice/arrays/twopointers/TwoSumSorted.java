@@ -16,9 +16,7 @@ public class TwoSumSorted {
 
             if (sum > target) {
                 right--;
-            }
-
-            if (sum < target) {
+            } else {
                 left++;
             }
         }
