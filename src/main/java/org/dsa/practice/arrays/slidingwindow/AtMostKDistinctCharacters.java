@@ -37,6 +37,7 @@ public class AtMostKDistinctCharacters {
                     //only 1 char exist so remove it
                     map.remove(leftChar);
                 } else {
+                    //else decrease the counter
                     map.put(leftChar, map.get(leftChar)-1);
                 }
                 left++;
