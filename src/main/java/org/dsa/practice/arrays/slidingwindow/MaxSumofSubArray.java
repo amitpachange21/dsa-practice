@@ -2,6 +2,7 @@ package org.dsa.practice.arrays.slidingwindow;
 
 public class MaxSumofSubArray {
     /*
+    FIXED WINDOW PROBLEM
     * Given an integer array and an integer k, find the maximum sum of any contiguous subarray of exactly k elements.
 
     Input
