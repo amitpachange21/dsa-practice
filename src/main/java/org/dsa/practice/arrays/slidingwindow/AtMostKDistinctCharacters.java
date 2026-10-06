@@ -28,7 +28,7 @@ public class AtMostKDistinctCharacters {
             //put the element and its freq in map
             map.put(arr[right], map.getOrDefault(arr[right], 0) + 1);
 
-            //when window becomes invalid
+            //when window becomes invalid when the map contains more than k entries
             while (map.size() > k) {
                 //shrink the window from the left
                 //first check if char is 1
