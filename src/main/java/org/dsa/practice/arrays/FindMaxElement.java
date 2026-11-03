@@ -6,12 +6,15 @@ public class FindMaxElement {
 
         //TODO find the max element
         int currentMax = arr[0];
+        int currentMin = arr[0];
         // start the loop from 1 index as we have already initialized the 0th element
         for (int i=1; i<arr.length; i++) {
             if (arr[i] > currentMax) {
                 currentMax = arr[i];
+            } else if (arr[i] < currentMin) {
+                currentMin = arr[i];
             }
         }
-        System.out.println(currentMax);
+        System.out.println("Max is "+currentMax + " " + "Min is "+ currentMin);
     }
 }
